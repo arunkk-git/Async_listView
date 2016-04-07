@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 publishProgress(info);
                 try {
                    // wait(100);
-                    Thread.sleep(500);
+                    Thread.sleep(100);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
